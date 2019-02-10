@@ -23,7 +23,7 @@ namespace WpfApp1
     public class BoundObject
     {
         public string MyProperty { get; set; }
-        public void MyMethod()
+        public void a()
         {
             // Do something really cool here.
             MessageBox.Show("Something to do!");

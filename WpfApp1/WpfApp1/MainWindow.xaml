@@ -10,6 +10,6 @@
     <Grid Name="MAIN">
         <Button Content="FFF" HorizontalAlignment="Right"  Click="Button_Click" Margin="0,298,-0.353,-0.176" Width="54" />
         <Button Panel.ZIndex="100" Content="Button" HorizontalAlignment="Right" Margin="438,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
-
+        <local:vlc Margin="0,0,179,122" />
     </Grid>
 </Window>

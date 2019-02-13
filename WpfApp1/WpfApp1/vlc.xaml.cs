@@ -17,14 +17,14 @@ namespace WpfApp1
         {
             InitializeComponent();
 
-            vlcPlayer.MediaPlayer.VlcLibDirectory =
+           // vlcPlayer.MediaPlayer.VlcLibDirectory =
                         //replace this path with an appropriate one
-                        new DirectoryInfo(@"c:\Program Files\VideoLAN\VLC\");
-            vlcPlayer.MediaPlayer.EndInit();
+             //           new DirectoryInfo(@"c:\Program Files\VideoLAN\VLC\");
+         //   vlcPlayer.MediaPlayer.EndInit();
            // vlcPlayer.MediaPlayer.SetMedia("http://sfrom.net/https://www.youtube.com/watch?v=k1K_4UkVSAE");
 
              //   vlcPlayer.MediaPlayer.Play();
-            vlcPlayer.MediaPlayer.Play(new Uri(@"https://www.youtube.com/embed/3Su7trrJZQI"));
+         //   vlcPlayer.MediaPlayer.Play(new Uri(@"https://www.youtube.com/embed/3Su7trrJZQI"));
         }
     }
 

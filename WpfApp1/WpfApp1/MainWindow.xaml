@@ -10,6 +10,9 @@
     <Grid Name="MAIN">
         <Button Content="FFF" HorizontalAlignment="Right"  Click="Button_Click" Margin="0,298,-0.353,-0.176" Width="54" />
         <Button Panel.ZIndex="100" Content="Button" HorizontalAlignment="Right" Margin="438,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
-        <local:vlc Margin="0,0,179,122" />
+        <local:vlc x:Name="VlcControl1" Margin="0,0,179,122" />
+        <MediaElement x:Name="MDE" HorizontalAlignment="Left" Height="378" Margin="-360,116,0,-174" VerticalAlignment="Top" Width="521" LoadedBehavior="Manual" />
+        <Button Content="Button" HorizontalAlignment="Left" Margin="432,87,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="463,158,-21,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
     </Grid>
 </Window>
